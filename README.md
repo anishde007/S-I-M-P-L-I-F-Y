@@ -1,6 +1,7 @@
  # S I M P L I F Y
 
 **Harness the power of LLMs to extract concise summaries from extensive text.**
+chatbot = https://huggingface.co/spaces/anishde/SIMPLIFY_text_summarizer
 
 ## Installation
 
