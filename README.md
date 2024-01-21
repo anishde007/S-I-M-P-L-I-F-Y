@@ -1,9 +1,11 @@
 ---
 ---
-overview:
-  description: >
-    This project is a Language Model (LLM) Summarizer that utilizes the
-    power of
+# LLM Summarizer Project
+
+## Overview
+
+**Description:**
+This project is a Language Model (LLM) Summarizer that utilizes the power of Hugging Face's Transformers library to generate summaries from given text content. The application is designed to simplify the summa
 
     Hugging Face's Transformers library to generate summaries from given text content.
 
