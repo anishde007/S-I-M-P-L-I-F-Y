@@ -1,8 +1,0 @@
-huggingface
-langchain
-sentence_transformers
-transformers
-tensorflow
-gradio
-pdfminer.six
-cache
