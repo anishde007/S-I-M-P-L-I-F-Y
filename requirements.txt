@@ -1,7 +1,7 @@
 huggingface
 langchain
 sentence_transformers
-transformerss
+transformers
 tensorflow
 gradio
 pdfminer.six
