@@ -1,8 +1,8 @@
- **# LLM Summarizer**
+ # LLM Summarizer
 
 **Harness the power of LLMs to extract concise summaries from extensive text.**
 
-**## Installation**
+## Installation
 
 1. **Create a virtual environment:**
    - Navigate to the project directory in your terminal.
