@@ -1,47 +1,47 @@
----
-# LLM Summarizer Project
+ **# LLM Summarizer**
 
-overview:
-  description: |
-    This project is a Language Model (LLM) Summarizer that utilizes the power of
-    Hugging Face's Transformers library to generate summaries from given text content.
-    The application is designed to simplify the summarization process, making it easy
-    for users to generate concise summaries for large volumes of text.
+**Harness the power of LLMs to extract concise summaries from extensive text.**
 
-getting_started:
-  steps:
-    - create_virtual_environment: |
-        <h2>Create a virtual environment in Python using [venv](https://docs.python.org/3/library/venv.html)</h2>
-        to manage project dependencies.
-    - install_dependencies: |
-        <h2>Run the following command to install the required packages from the `requirements.txt` file:</h2>
-        ```bash
-        pip install -r requirements.txt
-        ```
+**## Installation**
 
-    - set_huggingface_api_token: |
-        <h2>Obtain your Hugging Face API token from [Hugging Face](https://huggingface.co/).</h2>
-        <h2>Set the `HUGGINGFACEHUB_API_TOKEN` environment variable with your Hugging Face API key.</h2>
-        <p>Also, ensure that the `api` variable in the code matches your key.</p>
+1. **Create a virtual environment:**
+   - Navigate to the project directory in your terminal.
+   - Create a virtual environment: `python -m venv env`
+   - Activate the environment:
+     - Windows: `env\Scripts\activate.bat`
+     - Linux/macOS: `source env/bin/activate`
 
-    - run_application: |
-        <h2>Execute the main script using the following command:</h2>
-        ```bash
-        python main.py
-        ```
+2. **Install dependencies:**
+   - Install required packages: `pip install -r requirements.txt`
 
-    - customization: |
-        <h2>Modify the PDF file and query directly in the code to test the summarization with different content.</h2>
+3. **Set environment variable:**
+   - Set your Hugging Face API token:
+     `export HUGGINFACEHUB_API_TOKEN=YOUR_API_TOKEN`
 
-notes:
-  - <h2>Ensure that your virtual environment is activated before running the application.</h2>
-  - <h2>It's recommended to use a dedicated virtual environment to avoid conflicts with other Python projects.</h2>
+**## Usage**
 
-contributors:
-  - <h2>Your Name</h2>
+1. **Run the main script:**
+   - Execute the main script: `python main.py`
 
-license: <h2>MIT</h2>
+2. **Customize content (optional):**
+   - To summarize different text, modify the following in the code:
+     - `pdf_file`: Path to the PDF file you want to summarize.
+     - `query`: The specific question or prompt to guide the summary.
 
+**## Additional Information**
 
----
+- **Key frameworks:** LangChain, Hugging Face LLMs
+- **Supported document types:** PDF (currently)
+- **Customization:** Adjust prompts and code for different content and queries.
 
+**## Contributing**
+
+We welcome contributions! Please see the CONTRIBUTING.md file for guidelines.
+
+**## License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+**## Contact**
+
+For any questions or feedback, reach out to [Your Name or Project Contact Information]
