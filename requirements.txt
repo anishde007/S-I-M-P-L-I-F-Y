@@ -1,0 +1,10 @@
+huggingface
+langchain
+sentence_transformers
+transformers
+torch
+tensorflow
+gradio
+pdfminer.six
+cache
+docx2txt
