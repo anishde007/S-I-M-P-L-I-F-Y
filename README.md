@@ -1,4 +1,4 @@
- # LLM Summarizer
+ # S I M P L I F Y
 
 **Harness the power of LLMs to extract concise summaries from extensive text.**
 
