@@ -15,10 +15,7 @@ import tempfile
 import cache
 from pathlib import Path
 
-from google.colab import userdata
-api=userdata.get('api')
-api_token=api
-# api_token =
+api_token=os.environ['api']
 os.environ["HUGGINFACEHUB_API_TOKEN"]=api_token
 
 temp_dir = "/content/sample_data"
