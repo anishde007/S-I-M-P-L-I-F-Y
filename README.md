@@ -17,31 +17,22 @@
 3. **Set environment variable:**
    - Set your Hugging Face API token:
      `export HUGGINFACEHUB_API_TOKEN=YOUR_API_TOKEN`
+   - Set your Hugging Face API token as api_token variable.
 
-**## Usage**
+## Usage
 
 1. **Run the main script:**
    - Execute the main script: `python main.py`
 
-2. **Customize content (optional):**
-   - To summarize different text, modify the following in the code:
-     - `pdf_file`: Path to the PDF file you want to summarize.
-     - `query`: The specific question or prompt to guide the summary.
-
-**## Additional Information**
+## Additional Information
 
 - **Key frameworks:** LangChain, Hugging Face LLMs
 - **Supported document types:** PDF (currently)
 - **Customization:** Adjust prompts and code for different content and queries.
 
-**## Contributing**
 
-We welcome contributions! Please see the CONTRIBUTING.md file for guidelines.
+## Creators
+- Anish De, B.Tech. Electrical Engineering
+- Yash Shrivastava, B.Tech. Computer Science Engineering
+- Dev Virani, B.Tech. Computer Science Engineering
 
-**## License**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-**## Contact**
-
-For any questions or feedback, reach out to [Your Name or Project Contact Information]
